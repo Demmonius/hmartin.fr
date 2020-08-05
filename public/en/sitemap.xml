@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hmartin.fr/en/categories/</loc>
+    <loc>https://hmartin.fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
+                href="https://hmartin.fr/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="https://hmartin.fr/categories/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hmartin.fr/en/categories/"
-                />
   </url>
   
   <url>
-    <loc>https://hmartin.fr/en/</loc>
+    <loc>https://hmartin.fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
+                href="https://hmartin.fr/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="https://hmartin.fr/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hmartin.fr/en/"
-                />
   </url>
   
   <url>
-    <loc>https://hmartin.fr/en/tags/</loc>
+    <loc>https://hmartin.fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://hmartin.fr/tags/"
+                href="https://hmartin.fr/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hmartin.fr/en/tags/"
+                href="https://hmartin.fr/tags/"
                 />
   </url>
   

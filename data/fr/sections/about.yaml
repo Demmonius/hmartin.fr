@@ -14,7 +14,7 @@ designation: DevOps Free-lance
 #  url: "https://hmartin.fr"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+resume: "/files/resume.pdf"
 
 # a summary about you
 summary: "Passioné d\'informatique, je suis étudiant en 5ème année à [EPITECH](https://www.epitech.eu). Je suis aussi Devops, spécialisé en architecture cloud et gestion de CI/CD, en tant que free-lance."

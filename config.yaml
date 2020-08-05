@@ -3,7 +3,7 @@ languageCode: "fr-fr"
 title: "Hugo MARTIN"
 theme: "toha"
 
-DefaultContentLanguage: fr # Force a locale to be use, really usefull to develop the application !
+#DefaultContentLanguage: fr # Force a locale to be use, really usefull to develop the application !
 languages:
   fr:
     languageName: Français

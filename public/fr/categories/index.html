@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>404 Page not found</title>
+    <title>Categories</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -23,7 +23,8 @@
 <link rel="stylesheet" href="/assets/css/style.css" />
 
     
-    <link rel="stylesheet" href="/assets/css/404.css">
+    <link rel="stylesheet" href="/assets/css/list.css">
+    <link rel="stylesheet" href="/assets/css/navigators/sidebar.css">
 
 
     
@@ -62,19 +63,40 @@
 
 
       
-       
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <input type="text" value="" placeholder="Search" data-search="" id="search-box" />
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
       
       
-<div class="container">
-    <div class="notFound">
-        <img src="/assets/images/404.png" alt="">
-        <div class="message">
-            <h1>404</h1>
-            <h4>The page you are looking for is not there yet.</h4>
-        </div>
+<section class="content-section" id="content-section">
+  <div class="content container-fluid" id="content">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
+      
+      
     </div>
-</div>
+    <div class="paginator">
+      
+
+
+    </div>
+  </div>
+</section>
 
 
       
@@ -85,17 +107,17 @@
     <div class="container pt-5">
       <div class="row text-left">
         <div class="col-md-4 col-sm-12">
-          <h5>Navigation</h5>
+          <h5>Naviguation</h5>
           
           <ul>
               
               <li class="nav-item">
-                <a class="smooth-scroll" href="/#about">About</a>
+                <a class="smooth-scroll" href="/#a-propos">A propos</a>
               </li>
               
               
               <li class="nav-item">
-                <a class="smooth-scroll" href="/#skills">Skills</a>
+                <a class="smooth-scroll" href="/#competences">Competences</a>
               </li>
               
               
@@ -105,7 +127,7 @@
               
               
               <li class="nav-item">
-                <a class="smooth-scroll" href="/#projects">Projects</a>
+                <a class="smooth-scroll" href="/#projets">Projets</a>
               </li>
               
               
@@ -115,7 +137,7 @@
   
         </div>
         <div class="col-md-4 col-sm-12">
-          <h5>Contact me:</h5>
+          <h5>Contactez moi :</h5>
           <ul>
             
             <li><span>Email: </span> <span>hugo.martin.69@gmail.com</span></li>
@@ -125,7 +147,7 @@
         
         <div class="col-md-4 col-sm-12">
           
-          <p>Stay up to date with email notification</p>
+          <p>Restez à jour par e-mail</p>
           <form>
             <div class="form-group">
               <input
@@ -133,13 +155,13 @@
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
-                placeholder="Enter email"
+                placeholder="Entrez une adresse e-mail"
               />
               <small id="emailHelp" class="form-text text-muted"
-                >We&#39;ll never share your email with anyone else.</small
+                >Nous ne partagerons jamais votre courriel avec quelqu&#39;un d&#39;autre.</small
               >
             </div>
-            <button type="submit" class="btn btn-info">Submit</button>
+            <button type="submit" class="btn btn-info">Envoyer</button>
           </form>
         </div>
         
@@ -161,6 +183,8 @@
 
 
     
-     
+    
+    <script src="/assets/js/list.js"></script>
+
   </body>
 </html>
