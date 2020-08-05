@@ -1,0 +1,51 @@
+# section information
+section:
+  name: "Experiences"
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  template: sections/experiences.html
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Unly
+    url: "https://www.unly.org"
+    location: Lyon
+    # company overview
+    overview: Unly est une marque déposée offrant des solutions de financement pour rendre les études accessibles à tous.
+  positions:
+  - designation: Full-stack developer
+    start: Avril 2019
+    end: Août 2019
+    responsibilities:
+    - Mise en place des CI/CD avec AWS CodeBuild
+    - Développement de [5 projets open-source](https://github.com/UnlyEd)
+
+- company:
+    name: Coding Academy by EPITECH
+    url: "https://www.coding-academy.fr/"
+    location: Lyon
+    overview: Une formation de confiance qui s’appuie sur l’excellence de la pédagogie d’Epitech, créée en 1999 et reconnue comme la meilleure des écoles d’informatique. 
+  positions:
+  - designation: Software Engineer
+    start: March 2016
+    end: May 2017
+    responsibilities:
+    - Gestion de 20 étudiants
+    - Mise en place d'outils de virtualisation pour les apprenants
+
+- company:
+    name: TAKER
+    url: "http://taker.epitech.eu/"
+    location: Lyon
+    overview: Développeur logiciel free-lance
+  positions:
+  - designation: Développeur full-stack
+    start: Avril 2017
+    end: Août 2017
+    responsibilities:
+    - Développement logiciel C++ et QT
+    - Développement web DRUPAL

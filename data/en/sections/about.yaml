@@ -1,0 +1,69 @@
+# section information
+section:
+  name: About
+  enable: true
+  weight: 1
+  showOnNavbar: true
+
+# your designation
+designation: DevOps Free-lance
+# your company information
+#company:
+#  name:
+#  url:
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: "Passionate"
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "hugo.martin.69@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/Demmonius"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/11124567/hugo-martin"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/hugo-martin-051a19140/"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: DevOps
+  percentage: 95
+  color: blue
+- name: Anglais
+  percentage: 85
+  color: yellow
+- name: Travail d'équipe
+  percentage: 100
+  color: pink
+- name: Autonome
+  percentage: 100
+  color: green
+- name: Tests unitaires
+  percentage: 85
+  color: sky
+- name: Communication
+  percentage: 90
+  color: orange
+
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"
