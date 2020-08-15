@@ -1,0 +1,17 @@
+# some information about you
+name: "Hugo MARTIN"
+nickname: "Hugo"
+image: "/images/avatar.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "hugo.martin.69@gmail.com"
+  #phone: ""
+# a summary of what you do
+
+# some summary about what you do
+summary:
+  - I am a Developer
+  - I am a Devops
+  - I love servers
+  - I work on open-source projects
+  - I love to work with some fun projects"

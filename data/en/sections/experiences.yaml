@@ -1,9 +1,10 @@
 # section information
 section:
-  name: Experiences
+  name: "Experiences"
   enable: true
   weight: 3
   showOnNavbar: true
+  template: sections/experiences.html
   # Can optionally hide the title in sections
   # hideTitle: true 
 
@@ -14,37 +15,37 @@ experiences:
     url: "https://www.unly.org"
     location: Lyon
     # company overview
-    overview: Unly est une marque déposée offrant des solutions de financement pour rendre les études accessibles à tous.
+    overview: Unly is a registered trademark offering financing solutions to make education accessible to all.
   positions:
   - designation: Full-stack developer
-    start: Avril 2019
-    end: Août 2019
+    start: April 2019
+    end: August 2019
     responsibilities:
-    - Mise en place des CI/CD avec AWS CodeBuild
-    - Développement de [5 projets open-source](https://github.com/UnlyEd)
+    - Setting up CI/CDs with AWS CodeBuild
+    - Development of [5 open-source projects](https://github.com/UnlyEd)
 
 - company:
     name: Coding Academy by EPITECH
     url: "https://www.coding-academy.fr/"
     location: Lyon
-    overview: Une formation de confiance qui s’appuie sur l’excellence de la pédagogie d’Epitech, créée en 1999 et reconnue comme la meilleure des écoles d’informatique. 
+    overview: A confident training based on the excellence of Epitech's pedagogy, created in 1999 and recognized as the best computer school.
   positions:
-  - designation: Software Engineer
+  - designation: Teaching assistant
     start: March 2016
     end: May 2017
     responsibilities:
-    - Gestion de 20 étudiants
-    - Mise en place d'outils de virtualisation pour les apprenants
+    - Management of 20 students
+    - Implementation of virtualization tools for learners
 
 - company:
     name: TAKER
     url: "http://taker.epitech.eu/"
     location: Lyon
-    overview: Développeur logiciel free-lance
+    overview: Freelance Software Developer
   positions:
-  - designation: Développeur full-stack
+  - designation: Full-stack developer
     start: Avril 2017
     end: Août 2017
     responsibilities:
-    - Développement logiciel C++ et QT
-    - Développement web DRUPAL
+    - C++ and QT software development
+    - Web development using DRUPAL

@@ -29,11 +29,6 @@ skills:
   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
   url: "https://www.docker.com/"
 
-- name: Prometheus
-  icon: "/images/skills/prometheus.png"
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
-
 - name: Linux
   icon: "/images/skills/linux.png"
   summary: "Using as the main operating system. Capable of writing bash/shell scripts."

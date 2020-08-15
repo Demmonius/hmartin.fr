@@ -13,10 +13,10 @@ designation: DevOps Free-lance
 #  url:
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+resume: "/files/resume.pdf"
 
 # a summary about you
-summary: "Passionate"
+summary: "Passionate about computers, I'm a fifth year student at [EPITECH](https://www.epitech.eu). I'm also Devops, specialized in cloud architecture and CI/CD management, as a freelancer."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -44,16 +44,16 @@ softSkills:
 - name: DevOps
   percentage: 95
   color: blue
-- name: Anglais
+- name: English
   percentage: 85
   color: yellow
-- name: Travail d'équipe
+- name: Teamwork
   percentage: 100
   color: pink
-- name: Autonome
+- name: Independent
   percentage: 100
   color: green
-- name: Tests unitaires
+- name: Unit tests
   percentage: 85
   color: sky
 - name: Communication
