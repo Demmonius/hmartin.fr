@@ -36,7 +36,12 @@
   </head>
   <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
 
-    <nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
+    
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
   <div class="container">
     
     
@@ -77,13 +82,8 @@
               </li>
             
             
-              <li class="nav-item">
-                <a class="nav-link" href="#projets">Projets</a>
-              </li>
             
             
-            
-        
         
         
           
@@ -99,30 +99,27 @@
             <a class="nav-link" href="https://github.com/Demmonius">Github</a>
           </li>
         
-        <li class="nav-item">
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img class="flag" src="https://www.countryflags.io/fr/flat/16.png">
+            Français
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             
-            <ul>
-              <div class="dropdown nav-item languages-menu">
-                <button class="btn-dark dropdown-toggle nav-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: rgba(255, 255, 255, 0); color: ;">
-                  Français
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  
-                    <a class="dropdown-item nav-link languages-item" href="https://hmartin.fr/fr/">
-                      <img class="flag" src="https://www.countryflags.io/fr/flat/32.png">
-                      Français
-                    </a>
-                  
-                    <a class="dropdown-item nav-link languages-item" href="https://hmartin.fr/">
-                      <img class="flag" src="https://www.countryflags.io/gb/flat/32.png">
-                      English
-                    </a>
-                  
-                </div>
-              </div>
-            </ul>
+              <a class="dropdown-item nav-link languages-item" href="https://hmartin.fr/fr/">
+                <img class="flag" src="https://www.countryflags.io/fr/flat/24.png">
+                Français
+              </a>
             
+              <a class="dropdown-item nav-link languages-item" href="https://hmartin.fr/">
+                <img class="flag" src="https://www.countryflags.io/gb/flat/24.png">
+                English
+              </a>
+            
+          </div>
         </li>
+        
       </ul>
     </div>
   </div>
@@ -130,6 +127,16 @@
   <img src="/assets/images/main-logo.png" class="d-none" id="main-logo">
   <img src="/assets/images/inverted-logo.png" class="d-none" id="inverted-logo">
 </nav>
+
+
+  
+
+
+
+
+  
+
+
 <div class="container-fluid home" id="home">
   <div
     class="background container-fluid"
@@ -151,15 +158,15 @@
     <ul id="typing-carousel-data">
       
         
-          <li>Je suis un développeur</li> 
+          <li>Je suis un développeur</li>
         
-          <li>Je suis un Devops</li> 
+          <li>Je suis un Devops</li>
         
-          <li>J&#39;aime les serveurs</li> 
+          <li>J&#39;aime les serveurs</li>
         
-          <li>Je travaille sur des projets open-source</li> 
+          <li>Je travaille sur des projets open-source</li>
         
-          <li>J&#39;aime travailler avec des projets amusants</li> 
+          <li>J&#39;aime travailler avec des projets amusants</li>
         
       
     </ul>
@@ -170,6 +177,11 @@
     
   </div>
 </div>
+
+    
+    
+      
+    
 
     
       
@@ -386,7 +398,7 @@
         <h5 class="card-title">Kubernetes</h5>
       </div>
       <div class="card-body">
-        <p class="card-text">Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs.</p>
+        <p class="card-text">Capable de déployer, de gérer l&rsquo;application sur Kubernetes. Expérimenté dans la rédaction de contrôleurs Kubernetes pour les CRD.</p>
       </div>
     </div>
   </a>
@@ -403,7 +415,7 @@
         <h5 class="card-title">Go Development</h5>
       </div>
       <div class="card-body">
-        <p class="card-text">Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program.</p>
+        <p class="card-text">Utiliser comme langue principale pour le développement professionnel. Capable d&rsquo;écrire des programmes évolutifs, testables et maintenables.</p>
       </div>
     </div>
   </a>
@@ -420,7 +432,7 @@
         <h5 class="card-title">Cloud Computing</h5>
       </div>
       <div class="card-body">
-        <p class="card-text">Worked with most of the major clouds such as GCP, AWS, Azure etc.</p>
+        <p class="card-text">A travaillé avec la plupart des principaux  tels que GCP, AWS, Azure, etc.</p>
       </div>
     </div>
   </a>
@@ -437,24 +449,7 @@
         <h5 class="card-title">Docker</h5>
       </div>
       <div class="card-body">
-        <p class="card-text">Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process.</p>
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://prometheus.io/">
-    <div class="card">
-      <div class="card-head d-flex">
-        
-        <img class="card-img-xs" src="/images/skills/prometheus.png" alt="Prometheus" />
-        
-        <h5 class="card-title">Prometheus</h5>
-      </div>
-      <div class="card-body">
-        <p class="card-text">Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters.</p>
+        <p class="card-text">Utilisation de docker dans chaque projet afin de faciliter le déploiement de l&rsquo;application</p>
       </div>
     </div>
   </a>
@@ -471,7 +466,7 @@
         <h5 class="card-title">Linux</h5>
       </div>
       <div class="card-body">
-        <p class="card-text">Using as the main operating system. Capable of writing bash/shell scripts.</p>
+        <p class="card-text">Utilisé comme système d&rsquo;exploitation principal. Capable d&rsquo;écrire des scripts bash/shell.</p>
       </div>
     </div>
   </a>
@@ -488,7 +483,7 @@
         <h5 class="card-title">Git</h5>
       </div>
       <div class="card-body">
-        <p class="card-text">Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab.</p>
+        <p class="card-text">Expérimenté dans le développement basé sur les GIT. Surtout, utilisez Github. Avoir également une expérience de travail avec GitLab et Gitlab-CI.</p>
       </div>
     </div>
   </a>
@@ -505,7 +500,7 @@
         <h5 class="card-title">C&#43;&#43;</h5>
       </div>
       <div class="card-body">
-        <p class="card-text">Know basic C/C++ programming. Used for contest programming and problem solving.</p>
+        <p class="card-text">Je connais les bases de la programmation C/C++. Utilisé pour la programmation d&rsquo;un bash sous UNIX et la résolution de problèmes.</p>
       </div>
     </div>
   </a>
@@ -681,241 +676,6 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-dimmed">
-            <div class="container-fluid anchor pb-5 projects-section" id="projets">
-  
-    <h1 class="text-center">Projets</h1>
-  
-  <div class="container ml-auto text-center">
-    <div class="btn-group flex-wrap" role="group" id="project-filter-buttons">
-      
-      <button type="button" class="btn btn-dark" data-filter="all">
-        All
-      </button>
-      
-      <button type="button" class="btn btn-dark" data-filter="professional">
-        Professional
-      </button>
-      
-      <button type="button" class="btn btn-dark" data-filter="academic">
-        Academic
-      </button>
-      
-      <button type="button" class="btn btn-dark" data-filter="hobby">
-        Hobby
-      </button>
-      
-    </div>
-  </div>
-  <div class="container filtr-projects">
-    <div class="row" id="project-card-holder">
-      
-        <div
-  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
-  data-category='all, professional,kubernetes,cloud'
->
-  <div class="card mt-1">
-    <div class="card">
-      <a class="card-header" href="https://github.com/kubernetes/kubernetes">
-        <div>
-          <div class="d-flex">
-            
-            <img class="card-img-xs" src="/images/projects/kubernetes.png" alt="Kubernetes" />
-            
-            <h5 class="card-title mb-0">Kubernetes</h5>
-          </div>
-          <div class="sub-title">
-            <span>Contributor</span>
-            <span>March 2018 - Present</span>
-          </div>
-        </div>
-      </a>
-      <div class="card-body text-justify pt-1 pb-1">
-        <p>Production-Grade Container Scheduling and Management.</p>
-        <span class="float-right">
-          
-          <a
-            class="github-button-inactive"
-            href="https://github.com/kubernetes/kubernetes"
-            data-icon="octicon-standard"
-            data-show-count="true"
-            aria-label="Star Kubernetes"
-            >Star</a
-          >
-          
-        </span>
-      </div>
-    </div>
-  </div>
-</div>
-
-      
-        <div
-  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
-  data-category='all, professional,machine-learning,academic'
->
-  <div class="card mt-1">
-    <div class="card">
-      <a class="card-header" href="https://github.com/tensorflow/tensorflow">
-        <div>
-          <div class="d-flex">
-            
-            <img class="card-img-xs" src="/images/projects/tensorflow.png" alt="Tensorflow" />
-            
-            <h5 class="card-title mb-0">Tensorflow</h5>
-          </div>
-          <div class="sub-title">
-            <span>Developer</span>
-            <span>Jun 2018 - Present</span>
-          </div>
-        </div>
-      </a>
-      <div class="card-body text-justify pt-1 pb-1">
-        <p>An Open Source Machine Learning Framework for Everyone.</p>
-        <span class="float-right">
-          
-          <a
-            class="github-button-inactive"
-            href="https://github.com/tensorflow/tensorflow"
-            data-icon="octicon-standard"
-            data-show-count="true"
-            aria-label="Star Tensorflow"
-            >Star</a
-          >
-          
-        </span>
-      </div>
-    </div>
-  </div>
-</div>
-
-      
-        <div
-  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
-  data-category='all, academic,iot'
->
-  <div class="card mt-1">
-    <div class="card">
-      <a class="card-header" href="https://www.example.com">
-        <div>
-          <div class="d-flex">
-            
-            <h5 class="card-title mb-0">A sample academic paper</h5>
-          </div>
-          <div class="sub-title">
-            <span>Team Lead</span>
-            <span>Jan 2017 - Nov 2017</span>
-          </div>
-        </div>
-      </a>
-      <div class="card-body text-justify pt-1 pb-1">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.</p>
-        <span class="float-right">
-          
-          <a
-            class="btn btn-outline-info btn-sm mb-2"
-            href="https://www.example.com"
-            target="#"
-            >Details</a
-          >
-          
-        </span>
-      </div>
-    </div>
-  </div>
-</div>
-
-      
-        <div
-  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
-  data-category='all, hobby,fun'
->
-  <div class="card mt-1">
-    <div class="card">
-      <a class="card-header" href="https://github.com/kelseyhightower/nocode">
-        <div>
-          <div class="d-flex">
-            
-            <img class="card-img-xs" src="/images/projects/no-code.png" alt="Nocode" />
-            
-            <h5 class="card-title mb-0">Nocode</h5>
-          </div>
-          <div class="sub-title">
-            <span>Nothing</span>
-            <span>Oct 2019 - Dec 2019</span>
-          </div>
-        </div>
-      </a>
-      <div class="card-body text-justify pt-1 pb-1">
-        <p>The best way to write secure and reliable applications. Write nothing; deploy nowhere.</p>
-        <span class="float-right">
-          
-          <a
-            class="github-button-inactive"
-            href="https://github.com/kelseyhightower/nocode"
-            data-icon="octicon-standard"
-            data-show-count="true"
-            aria-label="Star Nocode"
-            >Star</a
-          >
-          
-        </span>
-      </div>
-    </div>
-  </div>
-</div>
-
-      
-        <div
-  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
-  data-category='all, hobby,hugo,theme,professional'
->
-  <div class="card mt-1">
-    <div class="card">
-      <a class="card-header" href="https://github.com/hossainemruz/toha">
-        <div>
-          <div class="d-flex">
-            
-            <img class="card-img-xs" src="/images/projects/toha.png" alt="Toha" />
-            
-            <h5 class="card-title mb-0">Toha</h5>
-          </div>
-          <div class="sub-title">
-            <span>Owner</span>
-            <span>Jun 2019 - Present</span>
-          </div>
-        </div>
-      </a>
-      <div class="card-body text-justify pt-1 pb-1">
-        <p>A Hugo theme for personal portfolio.</p>
-        <span class="float-right">
-          
-          <a
-            class="github-button-inactive"
-            href="https://github.com/hossainemruz/toha"
-            data-icon="octicon-standard"
-            data-show-count="true"
-            aria-label="Star Toha"
-            >Star</a
-          >
-          
-        </span>
-      </div>
-    </div>
-  </div>
-</div>
-
-      
-    </div>
-  </div>
-</div>
-
-          </div>
-          
-          
-            
-          
-        
       
         
       
@@ -946,10 +706,6 @@
               </li>
               
               
-              <li class="nav-item">
-                <a class="smooth-scroll" href="/#projets">Projets</a>
-              </li>
-              
               
               
           </ul>
@@ -963,26 +719,6 @@
             <li><span>Email: </span> <span>hugo.martin.69@gmail.com</span></li>
             
           </ul>
-        </div>
-        
-        <div class="col-md-4 col-sm-12">
-          
-          <p>Restez à jour par e-mail</p>
-          <form>
-            <div class="form-group">
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                placeholder="Entrez une adresse e-mail"
-              />
-              <small id="emailHelp" class="form-text text-muted"
-                >Nous ne partagerons jamais votre courriel avec quelqu&#39;un d&#39;autre.</small
-              >
-            </div>
-            <button type="submit" class="btn btn-info">Envoyer</button>
-          </form>
         </div>
         
       </div>
