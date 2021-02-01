@@ -13,9 +13,15 @@ pipeline {
       }
     }
 
+    stage('Store artifact') {
+      steps {
+        archiveArtifacts(artifacts: 'public', caseSensitive: true, onlyIfSuccessful: true)
+      }
+    }
+
     stage('Deploy') {
       steps {
-        echo 'Deploying....'
+        echo 'Deploying...'
       }
     }
 
