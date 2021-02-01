@@ -10,7 +10,8 @@ pipeline {
     stage('Build') {
       steps {
         sh 'hugo'
-        archiveArtifacts(artifacts: 'public', caseSensitive: true, onlyIfSuccessful: true)
+        sh 'zip -r build.zip public'
+        archiveArtifacts(artifacts: 'build.zip', caseSensitive: true, onlyIfSuccessful: true)
       }
     }
 
