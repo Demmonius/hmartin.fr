@@ -2,6 +2,7 @@ pipeline {
   agent {
     docker {
       image 'klakegg/hugo:0.80.0'
+      args '--entrypoint='
     }
 
   }
