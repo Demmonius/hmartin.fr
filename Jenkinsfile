@@ -10,11 +10,6 @@ pipeline {
     stage('Build') {
       steps {
         sh 'hugo'
-      }
-    }
-
-    stage('Store artifact') {
-      steps {
         archiveArtifacts(artifacts: 'public', caseSensitive: true, onlyIfSuccessful: true)
       }
     }
