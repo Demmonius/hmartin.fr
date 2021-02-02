@@ -1,8 +1,7 @@
 pipeline {
   agent {
-    docker {
-      image 'klakegg/hugo:0.80.0'
-      args '--entrypoint='
+    dockerfile {
+      filename 'Dockerfile'
     }
 
   }
@@ -10,12 +9,8 @@ pipeline {
     stage('Build') {
       steps {
         sh 'hugo'
-      }
-    }
-
-    stage('Store artifact') {
-      steps {
-        archiveArtifacts(artifacts: 'public', caseSensitive: true, onlyIfSuccessful: true)
+        sh 'zip -r build.zip public'
+        archiveArtifacts(artifacts: 'build.zip', caseSensitive: true, onlyIfSuccessful: true)
       }
     }
 
