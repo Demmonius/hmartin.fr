@@ -16,7 +16,14 @@ pipeline {
 
     stage('Deploy') {
       steps {
-        echo 'Deploying...'
+        node {
+          withCredentials([string(credentialsId: 'PRIVATE_SSH_KEY', variable: 'TOKEN')]) {
+            sh '''
+              set +x
+              echo $TOKEN
+              '''
+            }
+        }
       }
     }
 
