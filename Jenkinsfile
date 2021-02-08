@@ -3,8 +3,11 @@ pipeline {
     dockerfile {
       filename 'Dockerfile'
     }
-
   }
+  environment {
+        PRIVATE_SSH_KEY = credentials('PRIVATE_SSH_KEY')
+    }
+  
   stages {
     stage('Build') {
       steps {
@@ -15,14 +18,7 @@ pipeline {
     }
 
     stage('Deploy') {
-        node {
-          withCredentials([string(credentialsId: 'PRIVATE_SSH_KEY', variable: 'TOKEN')]) {
-            sh '''
-              set +x
-              echo $TOKEN
-              '''
-            }
-        }
+      echo $PRIVATE_SSH_KEY
     }
 
   }
