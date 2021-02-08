@@ -18,8 +18,9 @@ pipeline {
     }
 
     stage('Deploy') {
-      echo $PRIVATE_SSH_KEY
+      steps {
+        echo $PRIVATE_SSH_KEY
+      }
     }
-
   }
 }
