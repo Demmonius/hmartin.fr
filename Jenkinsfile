@@ -15,7 +15,6 @@ pipeline {
     }
 
     stage('Deploy') {
-      steps {
         node {
           withCredentials([string(credentialsId: 'PRIVATE_SSH_KEY', variable: 'TOKEN')]) {
             sh '''
@@ -24,7 +23,6 @@ pipeline {
               '''
             }
         }
-      }
     }
 
   }
