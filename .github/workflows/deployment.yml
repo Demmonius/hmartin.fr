@@ -22,7 +22,7 @@ jobs:
           # extended: true
 
       - name: Build
-        run: hugo -b "https://demmonius.github.io/hmartin.fr/" --minify
+        run: hugo -b "https://demmonius.github.io/hmartin.fr" --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
